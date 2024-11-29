@@ -1,0 +1,97 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff7e6; /* Light warm background */
+  }
+  
+  /* Skip to Main Content Link */
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #007BFF;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    z-index: 100;
+    transition: top 0.3s ease;
+  }
+  
+  .skip-link:focus {
+    top: 10px;
+  }
+  
+  
+  /* Header with Navigation and Dog Image */
+  .header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Dog Image in Navigation */
+  .nav-dog-image {
+    width: 50px; /* Adjust size */
+    height: 50px; /* Adjust size */
+    border-radius: 50%; /* Make it circular */
+    margin-left: 10px;
+    border: 2px solid #fff; /* Optional: Add a border */
+  }
+  
+  /* Main Content Styling */
+  main h1 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 20px;
+  }
+  
+  .body-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  main p {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 10px 0;
+    border-top: 2px solid #007BFF;
+  }
+  

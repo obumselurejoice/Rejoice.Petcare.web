@@ -1,0 +1,110 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff7e6; /* Light background color */
+  }
+  
+  /* Skip to Main Content Link */
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #007BFF;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    z-index: 100;
+    transition: top 0.3s ease;
+  }
+  
+  .skip-link:focus {
+    top: 10px;
+  }
+  
+  /* Header Navigation Styles */
+  .header-nav {
+    background-color: #333; /* Dark gray background */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+  }
+  
+  .header-nav nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-nav nav ul li {
+    margin: 0 15px;
+  }
+  
+  .header-nav nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .header-nav nav ul li a:hover {
+    color: #007BFF; /* Highlight links on hover */
+  }
+  
+  /* Dog Image Styling */
+  .nav-dog-image {
+    width: 80px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Gallery Section Styling */
+  .gallery-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .gallery-item {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
